@@ -1,0 +1,127 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(107, 105, 105);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  color: rgb(107, 105, 105);
+}
+
+p {
+  font-size: 20px;
+  margin: 70px 150px 70px 150px;
+  text-align: justify;
+}
+
+.App {
+  text-align: center;
+}
+
+.intro {
+  border-radius: 60px;
+  margin: 30px 30px 0px 30px;
+  padding-top: 40px;
+  /*padding-bottom: 200px; */
+  height: 100%;
+
+  /*border-top: 2px solid rgb(223, 223, 223); */
+}
+
+a {
+  margin: 10px;
+  color: rgb(107, 105, 105);
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: darkgray;
+  color: white;
+  border-radius: 5px;
+}
+
+.heading-div {
+  font-size: 30px;
+  margin: 100px 50px 10px 50px;
+}
+
+.heading-divider {
+  margin: 0px 400px 0px 400px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.heading-title {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-title:hover {
+  background-color: transparent;
+  color: rgb(107, 105, 105);
+}
+
+.greeting {
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.socials {
+  padding-bottom: 30px;
+}
+.profile {
+  src: "Untitled_Artwork.png";
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  border: 2px solid rgb(223, 223, 223);
+  box-shadow: 0 2px 4px rgb(107, 105, 105);
+}
+
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.contents {
+  /* border-top: 1px solid rgb(223, 223, 223); */
+  /* border-bottom: 1px solid rgb(223, 223, 223); */
+
+  padding: 5px;
+  font-size: 30px;
+  margin: 20px 20px 20px 20px;
+  /*background-color: rgb(233, 233, 233); */
+  /* border-radius: 60px; */
+}
+
+.social_logo {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.project-type {
+  background-color: rgb(223, 223, 223);
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  margin-bottom: 0;
+  width: 10%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.project-type:hover {
+  background-color: darkgray;
+}
+
+.project-carousel {
+  font-size: 10px;
+  margin-bottom: 40px;
+}
+
+.project-carousel-pages {
+  max-height: 400px;
+  max-width: 600px;
+}
